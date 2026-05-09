@@ -1,9 +1,13 @@
-@import '../node_modules/@aegov/design-system-react/dist/styles/tailwind.css';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "../node_modules/@aegov/design-system-react/dist/styles/tailwind.css";
+@plugin "@aegov/design-system";
 
 body {
   margin: 0;
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 800;
 }

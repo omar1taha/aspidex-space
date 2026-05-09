@@ -23,11 +23,11 @@ export default function ServiceCard({ service }: ServiceCardProps) {
         <span className={status.classes}>{status.label}</span>
       </div>
 
-      <h5 className="text-h5 font-semibold text-primary-900">
+      <h5 className="text-h6 lg:text-h5 text-aeblack-900">
         {service.title}
       </h5>
 
-      <p className="text-sm text-gray-600 line-clamp-2 flex-1">
+      <p className="text-sm text-aeblack-600 line-clamp-2 flex-1">
         {service.description}
       </p>
 

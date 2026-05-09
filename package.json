@@ -1,5 +1,6 @@
 {
   "name": "aspidex-space",
+  "homepage": "https://oamr1taha.github.io/aspidex-space",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,16 +8,18 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@aegov/design-system": "^3.0.7",
     "@aegov/design-system-react": "^1.1.2",
-    "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.14",
+    "@tailwindcss/vite": "^4.3.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "tailwindcss": "3.4"
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
