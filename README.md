@@ -1,5 +1,8 @@
 # UAE Government Services
 
+Here is a link for the live deployment link:
+https://omar1taha.github.io/aspidex-space/
+
 A React application that displays UAE government services with search and category filtering, built with the [UAE Design System](https://designsystem.gov.ae/).
 
 ## Tech Stack
