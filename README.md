@@ -9,7 +9,7 @@ A React application that displays UAE government services with search and catego
 
 - React 19 + TypeScript
 - Vite
-- Tailwind CSS v3.4
+- Tailwind CSS v4
 - [@aegov/design-system-react](https://www.npmjs.com/package/@aegov/design-system-react)
 - [@aegov/design-system](https://www.npmjs.com/package/@aegov/design-system) (Tailwind plugin)
 
