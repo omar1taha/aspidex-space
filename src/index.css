@@ -1,0 +1,9 @@
+@import '../node_modules/@aegov/design-system-react/dist/styles/tailwind.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
