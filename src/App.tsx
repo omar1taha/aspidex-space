@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Input, Select } from '@aegov/design-system-react';
 import ServiceCard from './components/ServiceCard';
 import { services, categories } from './data/services';
-import './App.css';
+
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
